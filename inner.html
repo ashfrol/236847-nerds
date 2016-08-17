@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс</title>
+  </head>
+  <body>
+
+    <header class="mainHeader">
+      <div class="container">
+        <nav class="mainNavigation">
+          <ul>
+            <li><a href="#"><img src="http://placehold.it/150x150" height="150" width="150" alt="Nerd's"></a></li>
+            <li><a href="#">Студия</a></li>
+            <li><a href="#">Клиенты</a></li>
+            <li><a href="#">Магазин</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#" class="basket">Корзина</a></li>
+          </ul>
+        </nav>
+
+        <div class="welcome">
+          <p>Добро пожаловать в магазин готовых макетов</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="indexContent">
+        <section class="filter">
+          <form class="catalogueForm" action="#" method="post">
+
+            <span>Стоимость:</span>
+            <div class="range">
+            </div>
+            <span>От</span><input type="text" value="0">
+            <span>До</span><input type="text" value="15000">
+
+            <span>Сетка:</span>
+            <label><input type="radio" name="type" value="a" checked>
+            Адаптивная</label>
+            <label><input type="radio" name="type" value="f">
+            Фиксированная</label>
+            <label><input type="radio" name="type" value="r">
+            Резиновая</label>
+
+            <span>Особенности:</span>
+            <input type="checkbox" name="features" id="feature1" checked>
+            <label for="feature1">Слайдер</label>
+            <input type="checkbox" name="features" id="feature2">
+            <label for="feature2">Блок преимуществ</label>
+            <input type="checkbox" name="features" id="feature3" checked>
+            <label for="feature3">Новости</label>
+            <input type="checkbox" name="features" id="feature4">
+            <label for="feature4">Галерея</label>
+            <input type="checkbox" name="features" id="feature5">
+            <label for="feature5">Корзина</label>
+
+            <input type="submit" value="Показать">
+          </form>
+        </section>
+        <div class="sorting">
+          <span>Сортировать:</span>
+          <a href="#">по цене</a>
+          <a href="#">по типу</a>
+          <a href="#">по функционалу</a>
+          <a href="#">По убыванию</a>
+          <a href="#">По возрастанию</a>
+        </div>
+        <div class="catalogue">
+          <article class="catalogueLayout">
+            <a href="#">
+            <img src="http://placehold.it/150x150" height="150" width="150" alt="Aviator">
+            </a>
+          </article>
+          <article class="catalogueLayout">
+            <a href="#">
+            <img src="http://placehold.it/150x150" height="150" width="150" alt="Sunset">
+            </a>
+          </article>
+          <article class="catalogueLayout">
+            <a href="#">
+            <img src="http://placehold.it/150x150" height="150" width="150" alt="Forte">
+            </a>
+            </article>
+          <article class="catalogueLayout">
+            <a href="#">
+            <img src="http://placehold.it/150x150" height="150" width="150" alt="Thai">
+            </a>
+            </article>
+          <article class="catalogueLayout">
+            <a href="#">
+            <img src="http://placehold.it/150x150" height="150" width="150" alt="Avenue">
+            </a>
+            </article>
+          <article class="catalogueLayout">
+            <a href="#">
+            <img src="http://placehold.it/150x150" height="150" width="150" alt="Dovetail">
+            </a>
+            </article>
+        </div>
+        <div class="pages">
+          <a href="#" class="button">1</a>
+          <a href="#" class="button">2</a>
+          <a href="#" class="button">3</a>
+          <a href="#" class="button">Следующая</a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="mainFooter">
+      <div class="container">
+        <div class="map">
+<! не знаю, как делать карту>
+          <div class="contacts">
+            <h2>Nerd's design studio</h2>
+            <p>191186,Санкт-Петербург, ул. Большая Конюшенная, д.19/8</p>
+            <p>тел. +7(812)275-75-75</p>
+            <a href="#" type="button">Напишите нам</a>
+          </div>
+        </div>
+
+        <div class="footerSocial">
+          <a href="#" class="socialVk">Вконтакте</a>
+          <a href="#" class="socialFb">Фейсбук</a>
+          <a href="#" class="socialInst">Инстаграм</a>
+        </div>
+        <div class="discount">
+          <p><b>Давайте дружить, это выгодно!</b></p>
+          <p>Скидка 10% для друзей из социальных сетей.</p>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
